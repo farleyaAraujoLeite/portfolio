@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    padding: 0 auto;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(10, 10, 10), rgb(27, 26, 27));
+}
+
+div#header{
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(92, 22, 133);
+    justify-content: space-between;
+}
+
+.first-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div#cabecalho{
+    margin: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%px;
+}
+
+#about{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+span{
+    color: rgb(129, 39, 182);
+}
+
+img#profile{
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(129, 39, 182);
+}
+
+#skils{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skils img{
+    padding: 5px;
+}
+
+#skils p {
+    color: orangered;
+    font-weight: 500;
+}
+
+div#social-line{
+    width:100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1#name{
+    color: #fff;
+}
+
+span#lastname{
+    color: rgb(255, 230, 0);
+    font-family: 'Lobster';
+}
+
+#subtitles{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+div.certificates{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#certificados{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#certificados img{
+    margin: 10px;
+}
+
+#btn{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 20px 20px;
+    display: inline-block;
+    color: rgb(129, 39, 182);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;  
+    text-align: center;  
+}
+
+#btn:hover {
+    color: #fff;
+    background: rgb(129, 39, 182);
+    box-shadow: 0 0 50px rgb(129, 39, 182);
+}
+
+#btn-aplicacao{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 20px 20px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;  
+    text-align: center; 
+}
+
+#btn-aplicacao:hover{
+    color: #fff;
+    background: rgb(129, 39, 182);
+    box-shadow: 0 0 50px rgb(129, 39, 182); 
+}
+#botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo{
+    color: #fff;
+    text-align: center;
+}
+
+#subtitulo{
+    color: orangered;
+}
+
+p{
+    color: #fff;
+}
+
+#container-projeto{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 600px){
+    #certificados{
+        flex-direction: column;
+    }
+    #btn{
+        background-color: rgb(129, 39, 182);
+        color: #fff;
+    }
+    #btn-aplicacao{
+        background-color: rgb(129, 39, 182);
+        color: #fff;
+        margin-top: 30px;
+    }
+    #botoes{
+        flex-direction: column;
+    }
+    #container-projeto{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    #about{
+        width: 100%;
+    }
+}
+
+
