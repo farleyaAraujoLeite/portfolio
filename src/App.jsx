@@ -18,7 +18,7 @@ const App = () => {
         <div className="first-info">
           <div id='cabecalho'>
             <div id='avatar'>
-              <img id='profile' src="./src/img/perfil.jpg" alt="perfil-img"/>
+              <img id='profile' src="../perfil.jpg" alt="perfil-img"/>
             </div> 
             <div id="about">
               <h3>Quem sou eu ?</h3>
@@ -35,12 +35,12 @@ const App = () => {
             {/*habilidades */}
             <div id='skils'>
               <p>Veja abaixo as ferramentas que tenho habilidade:</p>
-              <img width={50} src="./src/img/git-brands.svg" alt="git" />              
-              <img width={50} src="./src/img/react-brands.svg" alt="github" />
-              <img width={50} src="./src/img/js-square-brands.svg" alt="javascript" />
-              <img width={50} src="./src/img/bootstrap-fill.svg" alt="bootstrap" />
-              <img width={50} src="./src/img/html5-brands.svg" alt="html" />
-              <img width={50} src="./src/img/css3-alt-brands.svg" alt="css" />
+              <img width={50} src="../git-brands.svg" alt="git" />              
+              <img width={50} src="../react-brands.svg" alt="github" />
+              <img width={50} src="../js-square-brands.svg" alt="javascript" />
+              <img width={50} src="../bootstrap-fill.svg" alt="bootstrap" />
+              <img width={50} src="../html5-brands.svg" alt="html" />
+              <img width={50} src="../css3-alt-brands.svg" alt="css" />
             </div>
         </div>
 
@@ -48,9 +48,9 @@ const App = () => {
         <h3 id='subtitles'>Cursos e qualificações</h3>
           <div className='certificates'>
             <div id="certificados">
-              <img src="./src/img/take-blip.png"/>
-              <img src="./src/img/html-web-developer.png"/>
-              <img src="./src/img/coder.png"/>
+              <img src="../take-blip.png"/>
+              <img src="../html-web-developer.png"/>
+              <img src="../coder.png"/>
             </div>
             <div id="botoes">
               <a id='btn' href="https://www.dio.me/certificate/22A5763B/share" target="_blank"> Take Blip</a>
@@ -74,13 +74,13 @@ const App = () => {
           <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="./src/img/tela-login.png" className="d-block w-100" alt="..." />
+                <img src="../tela-login.png" className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src="./src/img/tela-notas.png" className="d-block w-100" alt="..." />
+                <img src="../tela-notas.png" className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src="./src/img/tela-cadastrar-nota.png" className="d-block w-100" alt="..." />
+                <img src="../tela-cadastrar-nota.png" className="d-block w-100" alt="..." />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -95,6 +95,9 @@ const App = () => {
           <a id='btn-aplicacao' href="https://todo-d47c7.web.app/login" target="_blank">Link da Aplicação</a>
         </div>
       </div>
+      <footer id='rodape'>
+        <p>Desenvolvido por Farley Leite</p>
+      </footer>
     </>
 
   )
