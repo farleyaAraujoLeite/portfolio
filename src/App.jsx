@@ -1,11 +1,8 @@
-
-import React, {useState, useEffect} from 'react';
 //imports components
 import Header from './components/Header';
 //import css
 import './App.css'
 
-const [certificates, setCertificates] = useState();
 
 const App = () => {
 
@@ -35,12 +32,13 @@ const App = () => {
             {/*habilidades */}
             <div id='skils'>
               <p>Veja abaixo as ferramentas que tenho habilidade:</p>
-              <img width={50} src="../git-brands.svg" alt="git" />              
-              <img width={50} src="../react-brands.svg" alt="github" />
-              <img width={50} src="../js-square-brands.svg" alt="javascript" />
-              <img width={50} src="../bootstrap-fill.svg" alt="bootstrap" />
-              <img width={50} src="../html5-brands.svg" alt="html" />
-              <img width={50} src="../css3-alt-brands.svg" alt="css" />
+              <img className='btnSkils' width={50} src="../git-brands.svg" alt="git" />              
+              <img className='btnSkils' width={50} src="../react-brands.svg" alt="github" />
+              <img className='btnSkils' width={50} src="../js-square-brands.svg" alt="javascript" />
+              <img className='btnSkils' width={50} src="../bootstrap-fill.svg" alt="bootstrap" />
+              <img className='btnSkils' width={50} src="../html5-brands.svg" alt="html" />
+              <img className='btnSkils' width={50} src="../css3-alt-brands.svg" alt="css" />
+              <img className='btnSkils' width={50} src="../nodejs.png" alt="css" />
             </div>
         </div>
 
@@ -48,16 +46,10 @@ const App = () => {
         <h3 id='subtitles'>Cursos e qualificações</h3>
           <div className='certificates'>
             <div id="certificados">
-              <img src="../take-blip.png"/>
-              <img src="../html-web-developer.png"/>
-              <img src="../coder.png"/>
-              <img src="../node.jpg"/>
-            </div>
-            <div id="botoes">
-              <a id='btn' href="https://www.dio.me/certificate/22A5763B/share" target="_blank"> Take Blip</a>
-              <a id='btn' href="https://www.dio.me/certificate/5308CBB6/share" target="_blank"> Html web developer</a>
-              <a id='btn' href="https://www.cod3r.com.br/certificates/ozzcyqo7ne" target="_blank"> Next e React</a>
-              <a id='btn' href="https://cursa.com.br/certificate/99fe6562d0" target="_blank"> NodeJS</a>
+              <a id='btn' href="https://www.dio.me/certificate/22A5763B/share" target='_blanck'><img src="../take-blip.png"/></a>
+              <a id='btn' href="https://www.dio.me/certificate/5308CBB6/share" target="_blank" ><img src="../html-web-developer.png"/></a>
+              <a id='btn' href="https://www.cod3r.com.br/certificates/ozzcyqo7ne" target='_blank'><img src="../coder.png"/></a>
+              <a id='btn' href="https://cursa.com.br/certificate/99fe6562d0" target='_blank'><img src="../node.jpg"/></a>
             </div>
           </div>
       </div>

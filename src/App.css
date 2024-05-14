@@ -94,7 +94,7 @@ div.certificates{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%px;
+    width: 100%;
     padding: 20px;
     margin-bottom: 50px;
 }
@@ -110,29 +110,22 @@ div.certificates{
     margin: 10px;
 }
 
-#btn{
-    margin-top: 20px;
-    border-radius: 50px;
-    padding: 20px 20px;
-    display: inline-block;
-    color: rgb(129, 39, 182);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    overflow: hidden;  
-    text-align: center;  
-}
-
 #btn:hover {
     color: #fff;
     background: rgb(129, 39, 182);
     box-shadow: 0 0 50px rgb(129, 39, 182);
 }
 
+.btnSkils:hover {
+    color: #fff;
+    background: rgb(120, 117, 122);
+    box-shadow: 0 0 50px #c3c1c4;
+}
+
 #btn-aplicacao{
     margin-top: 20px;
     border-radius: 50px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     display: inline-block;
     color: #fff;
     letter-spacing: 2px;
@@ -147,11 +140,7 @@ div.certificates{
     background: rgb(129, 39, 182);
     box-shadow: 0 0 50px rgb(129, 39, 182); 
 }
-#botoes{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 #titulo{
     color: #fff;
