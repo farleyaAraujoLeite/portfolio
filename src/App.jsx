@@ -1,11 +1,11 @@
 
+import React, {useState, useEffect} from 'react';
 //imports components
 import Header from './components/Header';
-
-
-
 //import css
 import './App.css'
+
+const [certificates, setCertificates] = useState();
 
 const App = () => {
 
@@ -23,10 +23,10 @@ const App = () => {
             <div id="about">
               <h3>Quem sou eu ?</h3>
               <div id='text-about'>
-                  <p>Sou  <span>desenvolvedor web front-end</span>  apaixonado por tecnologia e constantemente
+                  <p>Sou  <span>desenvolvedor web full-stack</span>  apaixonado por tecnologia e constantemente
                   buscado  formas de aprender e me aperfeiçoar cada dia mais.
                   Nas horas vagas gosto de ouvir música, <strong>Rock and roll </strong>
-                  e curtir um cineminha com minha familia.
+                  e curtir minha familia.
                 </p>
               </div>
 
@@ -51,11 +51,13 @@ const App = () => {
               <img src="../take-blip.png"/>
               <img src="../html-web-developer.png"/>
               <img src="../coder.png"/>
+              <img src="../node.jpg"/>
             </div>
             <div id="botoes">
               <a id='btn' href="https://www.dio.me/certificate/22A5763B/share" target="_blank"> Take Blip</a>
-              <a id='btn' href="https://www.dio.me/certificate/22A5763B/share" target="_blank"> Html web developer</a>
+              <a id='btn' href="https://www.dio.me/certificate/5308CBB6/share" target="_blank"> Html web developer</a>
               <a id='btn' href="https://www.cod3r.com.br/certificates/ozzcyqo7ne" target="_blank"> Next e React</a>
+              <a id='btn' href="https://cursa.com.br/certificate/99fe6562d0" target="_blank"> NodeJS</a>
             </div>
           </div>
       </div>
